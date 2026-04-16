@@ -266,7 +266,7 @@ h2.hero-name {
 /* ===== HER THINGS GRID ===== */
 .things-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 0.9rem;
 }
 @media (max-width: 480px) {
@@ -549,13 +549,13 @@ h2.hero-name {
   .note-b { font-size: 0.7rem; padding: 4px 10px; }
 }
 @media (min-width: 768px) {
-  .things-grid { grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
+  .things-grid { grid-template-columns: repeat(4, 1fr); gap: 1.2rem; }
   .sheis-grid  { grid-template-columns: repeat(4, 1fr); }
   .sec { padding: 5rem 2rem; }
   .baleno-strip { padding: 4rem 3rem; }
 }
 @media (min-width: 1024px) {
-  .things-grid { grid-template-columns: repeat(6, 1fr); }
+  .things-grid { grid-template-columns: repeat(4, 1fr); }
   .c-card { min-width: 130px; }
 }
 </style>
@@ -632,6 +632,16 @@ h2.hero-name {
       <span class="t-icon">💼</span>
       <p class="t-name">Her Work</p>
       <p class="t-sub">Her passion is breathtaking</p>
+    </div>
+    <div class="thing-card">
+      <span class="t-icon">🏙️</span>
+      <p class="t-name">Pune</p>
+      <p class="t-sub">Her city, her home, her heart — she loves it so much</p>
+    </div>
+    <div class="thing-card">
+      <span class="t-icon">🎤</span>
+      <p class="t-name">Dany Pandit</p>
+      <p class="t-sub">The voice that gets her every time 🎶</p>
     </div>
   </div>
 </section>
